@@ -44,6 +44,19 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<distributionManagement>
+		<repository>
+			<id>maven-releases</id>
+			<name>API Service Maven Releases</name>
+			<url>http://nexus:8081/nexus/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>maven-snapshots</id>
+			<name>API Service Maven Snapshots</name>
+			<url>http://nexus:8081/nexus/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
